@@ -2,7 +2,7 @@
 name = "generic_python_env"
 version = "0.1.0"
 description = "A generic environment, Anaconda replacement."
-authors = ["Martin Høy <martin.hoy@dnv.com>"]
+authors = ["Martin Høy <martin@hoy.priv.no>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.11"
@@ -12,6 +12,7 @@ msal = "^1.16.0"
 requests = "^2.27.0"
 pydantic = "^1.9.0"
 python-dotenv = "^0.19.2"
+ipykernel = "^6.6.1"
 
 [tool.poetry.dev-dependencies]
 black = "^21.12b0"
